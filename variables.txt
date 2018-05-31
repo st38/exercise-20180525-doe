@@ -1,0 +1,4 @@
+# Deffine variables
+
+creator=st38
+container=nginx-lua
