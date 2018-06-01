@@ -1,15 +1,6 @@
 FROM ubuntu:xenial
 MAINTAINER st38
 
-ARG github_username=st38
-ARG repository_name=hiring
-ARG exercise_folder=exercise-20180525-doe
-
-ARG build_dir=/tmp/nginx
-
-FROM ubuntu:xenial
-MAINTAINER st38
-
 ARG build_dir=/tmp/nginx
 
 RUN mkdir ${build_dir} && \
